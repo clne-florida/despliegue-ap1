@@ -4,6 +4,6 @@
 	}
 
 	function mostrarMensaje(string $mensaje) {
-		echo $mensaje;
+		echo 'Tu mensaje personalizado es: ' . $mensaje;
 	}
 ?>
