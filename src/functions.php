@@ -6,4 +6,8 @@
 	function mostrarMensaje(string $mensaje) {
 		echo 'Tu mensaje personalizado es: ' . $mensaje;
 	}
+
+	function isBlank($data) {
+		return !isset($data) || empty($data);
+	}
 ?>
